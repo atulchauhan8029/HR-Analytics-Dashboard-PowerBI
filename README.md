@@ -1,12 +1,13 @@
-# 👥 HR Analytics Dashboard | Employee Attrition (Power BI)
+# HR Analytics Dashboard | Employee Attrition (Power BI)
 
 An interactive Power BI dashboard that analyses **employee attrition** across 1,470 employees to find *who leaves, when they leave and why*, so HR can make better retention and hiring decisions.
 
-![Dashboard Preview](images/dashboard.png)
+<img width="956" height="537" alt="dashboard png" src="https://github.com/user-attachments/assets/46a49e38-e54c-4022-8c16-1674991a1c5e" />
+
 
 ---
 
-## 📌 Problem Statement
+##  Problem Statement
 The company is losing employees and wants to understand the pattern behind it. This project answers:
 
 1. How many employees left, and what is the attrition rate?
@@ -16,7 +17,7 @@ The company is losing employees and wants to understand the pattern behind it. T
 
 ---
 
-## 🛠️ Tools & Skills Used
+##  Tools & Skills Used
 - **Power BI Desktop**: dashboard design, interactive visuals
 - **DAX**: measures such as Attrition Count and Attrition Rate
 - **Data modelling & preparation**: custom columns such as *Age Group* and *Salary Slab*
@@ -24,7 +25,7 @@ The company is losing employees and wants to understand the pattern behind it. T
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```
 HR-Analytics-Dashboard-PowerBI/
 ├── README.md
@@ -38,7 +39,7 @@ HR-Analytics-Dashboard-PowerBI/
 └── docs/                               ← optional PDF export
 ```
 
-> 💡 To explore the dashboard, download `HR_Analytics_Dashboard.pbix` and open it in the free [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
+>  To explore the dashboard, download `HR_Analytics_Dashboard.pbix` and open it in the free [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
 
 ---
 
@@ -59,7 +60,7 @@ HR-Analytics-Dashboard-PowerBI/
 
 ---
 
-## 🔑 Key Numbers
+##  Key Numbers
 | Metric | Value |
 |---|---|
 | Total employees | **1,470** |
@@ -70,7 +71,7 @@ HR-Analytics-Dashboard-PowerBI/
 
 ---
 
-## 🔍 Key Insights
+##  Key Insights
 - **Age 26–35** has the highest attrition (116 of 237 leavers, about **49%**).
 - **Low income** is a major factor: employees earning **up to 5k** account for 163 leavers (about **69%**).
 - **Laboratory Technician, Sales Executive and Research Scientist** together make up about **70%** of all leavers (166 of 237).
@@ -79,7 +80,7 @@ HR-Analytics-Dashboard-PowerBI/
 
 ---
 
-## ✅ Recommendations
+##  Recommendations
 1. **Review pay** for the lowest salary band, where attrition is highest.
 2. **Strengthen onboarding and early-career support** in the first two years.
 3. **Run retention programmes** for the three highest-risk roles.
@@ -88,7 +89,7 @@ HR-Analytics-Dashboard-PowerBI/
 
 ---
 
-## 🧠 Project Learnings
+##  Project Learnings
 - Identified the key factors that drive attrition
 - Insights to improve the hiring process
 - Insights to improve employee experience
@@ -97,7 +98,7 @@ HR-Analytics-Dashboard-PowerBI/
 
 ---
 
-## 📐 Key DAX Measures
+##  Key DAX Measures
 ```DAX
 -- Paste your own measures here, for example:
 Attrition Rate = DIVIDE ( [AttritionCount], [Employee Count] )
